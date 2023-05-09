@@ -1,2 +1,7 @@
 server:
   port: 20000
+
+test:
+  person:
+    name: 小明
+    age: 18
