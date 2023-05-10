@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController01 {
 
     @Autowired
-    @Qualifier("person1")
+    @Qualifier("person")
     private Person person1;
 
 

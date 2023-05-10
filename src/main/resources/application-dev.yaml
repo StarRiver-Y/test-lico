@@ -1,0 +1,7 @@
+server:
+  port: 20001
+
+test:
+  person:
+    name: 小明
+    age: 18

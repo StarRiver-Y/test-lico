@@ -1,7 +1,4 @@
-server:
-  port: 20000
+spring:
+  profiles:
+    active: dev
 
-test:
-  person:
-    name: 小明
-    age: 18
