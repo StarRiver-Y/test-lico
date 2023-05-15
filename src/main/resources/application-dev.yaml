@@ -43,3 +43,7 @@ test:
   person:
     name: 小明
     age: 18
+    qq:
+      - 2627
+      - 1234
+    map: {qq1: 26271, qq2: 12345}
