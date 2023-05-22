@@ -35,6 +35,8 @@ spring:
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志
+    map-underscore-to-camel-case: true
+  mapper-locations: classpath:com.example.test.database.mapper/*.xml
 
 logging:
   config: classpath:logback.xml

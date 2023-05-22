@@ -3,5 +3,7 @@
 <mapper namespace="com.example.test.database.mapper.TestMapper">
 
 
-
+    <select id="selectAll" resultType="com.example.test.database.model.Test">
+        select * from test
+    </select>
 </mapper>

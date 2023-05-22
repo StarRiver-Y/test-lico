@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Date;
+import java.util.List;
 
 @Validated
 @RestController
@@ -44,5 +45,12 @@ public class TestController01 {
 //        test.setName("小红");
         testMapper.insert(test);
         int i = 10/0;
+    }
+
+    @GetMapping("/all")
+    public void test03(){
+
+        List<Test> tests = testMapper.selectAll();
+        System.out.println(tests);
     }
 }
