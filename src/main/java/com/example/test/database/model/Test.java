@@ -29,5 +29,5 @@ public class Test {
     private Integer age;
 
     @TableField(exist = false)
-    private Date time;
+    private Date insertTime;
 }

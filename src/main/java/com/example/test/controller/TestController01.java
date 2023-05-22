@@ -50,7 +50,5 @@ public class TestController01 {
     @GetMapping("/all")
     public void test03(){
 
-        List<Test> tests = testMapper.selectAll();
-        System.out.println(tests);
     }
 }
